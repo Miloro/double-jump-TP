@@ -8,3 +8,5 @@ class PantallaJuego(pilasengine.escenas.Escena):
         self.fondo = pilas.fondos.FondoMozaico("imagenes/fondo/madera.jpg")
         self.jugador = Player(pilas)
 
+
+

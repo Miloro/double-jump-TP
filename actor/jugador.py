@@ -1,15 +1,12 @@
-# -*- encoding: utf-8 -*-
 from pilasengine.actores.actor import Actor
 
-#from logica.comportamientos import ComportamientoSaltar
 
 class Jugador(Actor):
-
     def iniciar(self):
-    	self.velocidad_x = 5
-       	self.imagen = "imagenes/actor/player.png"
-       	self.escala = 1
-        self.figura = self.pilas.fisica.Circulo(self.x, self.y, 17,friccion=0, restitucion=0)
+        self.velocidad_x = 5
+        self.imagen = "imagenes/actor/player.png"
+        self.escala = 1
+        self.figura = self.pilas.fisica.Circulo(self.x, self.y, 17, friccion=0, restitucion=0)
 
         self.figura.sin_rotacion = True
         self.figura.escala_de_gravedad = 3.5
@@ -17,6 +14,7 @@ class Jugador(Actor):
         self.sensor_pies = self.pilas.fisica.Rectangulo(self.x, self.y, 20, 5, sensor=True, dinamica=False)
 
     def actualizar(self):
+
         velocidad = 10
         salto = 20
         self.x = self.figura.x
@@ -39,14 +37,19 @@ class Jugador(Actor):
 
         self.sensor_pies.x = self.x
         self.sensor_pies.y = self.y - 20
-        
+
         if self.esta_pisando_el_suelo():
             self.imagen = "imagenes/actor/player.png"
         else:
             self.imagen = "imagenes/actor/player.png"
-        
+
+        if self.x > 300:
+            self.x = -300
+            self.figura.x = -300
+
+        if self.x < -300:
+            self.x = +300
+            self.figura.x = 300
+
     def esta_pisando_el_suelo(self):
         return len(self.sensor_pies.figuras_en_contacto) > 0
-
-    def pararCaida(self):
-        self.estaCallendo = False

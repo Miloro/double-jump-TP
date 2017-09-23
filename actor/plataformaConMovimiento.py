@@ -1,22 +1,20 @@
-# -*- encoding: utf-8 -*-
 from pilasengine.actores.actor import Actor
 
-#from logica.comportamientos import ComportamientoSaltar
 
 class PlataformaCM(Actor):
 
-    def iniciar(self):
+    def iniciar(self, d = 1):
+      self.dificultad = d
       self.x = self.pilas.azar(-250, 250)
       self.imagen = "imagenes/actor/plataforma.png"
-      self.escala = 1
-      self.figura = self.pilas.fisica.Rectangulo(self.x,self.y,270,15,False,self.x,self.y,450,30,True,False,True)
-       # self.figura = self.pilas.fisica.Circulo(self.x, self.y, 17,friccion=0, restitucion=0)#puede que sea mierda
-        #self.sensor_pies = self.pilas.fisica.Rectangulo(self.x, self.y, 20, 5, sensor=True, dinamica=False)
+      self.escala = 1 - (self.dificultad * 0.01)
+      self.figura = self.pilas.fisica.Rectangulo(self.x,300,270,15,False,self.x,self.y,450,30,True,False,True)
+      self.figura.escala = 1 - (self.dificultad * 0.01)
+ 
 
 
     def actualizar(self):
-        self.figura.x = self.x
         self.figura.y = self.y
-        self.y = self.y - 0.5
+        self.y = self.y - (1.3 + (self.dificultad * 0.01))
         if self.y < -400:
           self.eliminar()

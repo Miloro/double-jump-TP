@@ -5,7 +5,8 @@ class Fondo(Actor):
 	def iniciar(self):
 		self.imagen = "invisible.png"
 		self.fondo = self.pilas.actores.Actor()
-		self.fondo.imagen = "imagenes/fondo/ladrillo3.jpg"
+		self.fondo.imagen = "imagenes/fondo/pared_ladrillo.png"
+		self.fondo.escala = 0.3
 		self.fondo.z = 200
 		self.fondo.imagen.repetir_horizontal = True
 		self.fondo.imagen.repetir_vertical = True

@@ -1,7 +1,4 @@
 import pilasengine
-from actor.plataformaConMovimiento import PlataformaCM
-from actor.volverAJugar import VolverAJugar
-from actor.irAlInicio import IrAlInicio
 
 class PantallaJuegoTerminado(pilasengine.escenas.Escena):
 
@@ -10,6 +7,15 @@ class PantallaJuegoTerminado(pilasengine.escenas.Escena):
         texto_codigo = self.pilas.actores.Texto("Juego Terminado", magnitud=40)
         texto_codigo2 = self.pilas.actores.Texto("puntaje: " + str(p) , magnitud=40)
         texto_codigo2.y = 100
-        self.volverAJugar = VolverAJugar(pilas, -123 ,-123)
-        self.irAlInicio = IrAlInicio(pilas, 123 , - 123)
+
+        self.irAlInicio = self.pilas.interfaz.Boton("ir al inicio",x=123,y=-123)
+        self.irAlInicio.conectar(self.cuandoPulsanElBoton)
+        self.volverAJugar = self.pilas.interfaz.Boton("jugar",x=-123,y=-123)
+        self.volverAJugar.conectar(self.cuandoPulsanElBoton)
+
+    def cuandoPulsanElBoton(self):
+        self.pilas.escenas.PantallaJuego(pilas=self.pilas)
+
+    def cuandoPulsanElBoton(self):
+        self.pilas.escenas.Inicio(pilas=self.pilas)
 

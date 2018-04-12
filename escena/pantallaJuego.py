@@ -1,15 +1,12 @@
 import pilasengine
 from actor.jugador import Jugador
-from actor.plataforma import Plataforma
 from actor.fondo import Fondo
 from actor.puntaje import Puntaje
 from actor.plataformaConMovimiento import PlataformaCM
-from logica.cde import CDE
 
 class PantallaJuego(pilasengine.escenas.Escena):
 
     def iniciar(self, pilas):
-        self.cde = CDE(self.pilas)
         self.tarea = self.pilas.tareas.siempre(1.2, self.crearPlataformas)
         self.tarea2 = self.pilas.tareas.siempre(0.1, self.perder)
         fondo = Fondo(pilas)
@@ -34,5 +31,4 @@ class PantallaJuego(pilasengine.escenas.Escena):
 
     def perder(self):
         if(self.jugador.y <= -220):
-            print("perdiste guchin")
-            self.cde.irALaPantallaPerder(self.puntaje.puntos)
+            self.pilas.escenas.PantallaJuegoTerminado(pilas=self.pilas, p=self.puntaje.puntos)

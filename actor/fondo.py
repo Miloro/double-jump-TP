@@ -3,6 +3,7 @@ from pilasengine.actores.actor import Actor
 class Fondo(Actor):
 
 	def iniciar(self):
+		self._figura_de_colision = None
 		self.imagen = "invisible.png"
 		self.fondo = self.pilas.actores.Actor()
 		self.fondo.imagen = "imagenes/fondo/pared_ladrillo.png"

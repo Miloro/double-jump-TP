@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="cc755621-4cca-45f2-9bd9-37855746b8ce" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actor/plataforma.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/actor/plataformaConMovimiento.py" beforeDir="false" afterPath="$PROJECT_DIR$/actor/plataformaConMovimiento.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actor/fondo.py" beforeDir="false" afterPath="$PROJECT_DIR$/actor/fondo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actor/jugador.py" beforeDir="false" afterPath="$PROJECT_DIR$/actor/jugador.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/escena/pantallaJuego.py" beforeDir="false" afterPath="$PROJECT_DIR$/escena/pantallaJuego.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,15 +15,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/salto_doble_tp1$main.coverage" NAME="main Coverage Results" MODIFIED="1523578170087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/salto_doble_tp1$main.coverage" NAME="main Coverage Results" MODIFIED="1523587522527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="pantallaJuego.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/escena/pantallaJuego.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-64">
-              <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+            <state relative-caret-position="595">
+              <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -31,32 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="juegoterminado.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/escena/juegoterminado.py">
+      <file leaf-file-name="jugador.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/actor/jugador.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="inicio.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/escena/inicio.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="plataformaConMovimiento.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/actor/plataformaConMovimiento.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+            <state relative-caret-position="429">
+              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
             </state>
           </provider>
         </entry>
@@ -64,8 +43,35 @@
       <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
         <entry file="file://C:/Python27/Lib/site-packages/pilas-1.4.11-py2.7.egg/pilasengine/fisica/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="308" column="69" selection-start-line="306" selection-start-column="69" selection-end-line="308" selection-end-column="69" />
+            <state relative-caret-position="5236">
+              <caret line="312" column="53" selection-start-line="312" selection-start-column="45" selection-end-line="312" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fondo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/actor/fondo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rectangulo.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Python27/Lib/site-packages/pilas-1.4.11-py2.7.egg/pilasengine/fisica/rectangulo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="actor.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Python27/Lib/site-packages/pilas-1.4.11-py2.7.egg/pilasengine/actores/actor.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3230">
+              <caret line="194" column="13" lean-forward="true" selection-start-line="194" selection-start-column="13" selection-end-line="194" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -85,10 +91,11 @@
         <option value="$PROJECT_DIR$/actor/botonVolverAJugar.py" />
         <option value="$PROJECT_DIR$/escena/juegoterminado.py" />
         <option value="$PROJECT_DIR$/escena/inicio.py" />
-        <option value="$PROJECT_DIR$/actor/fondo.py" />
         <option value="$PROJECT_DIR$/actor/plataforma.py" />
         <option value="$PROJECT_DIR$/actor/plataformaConMovimiento.py" />
+        <option value="$PROJECT_DIR$/actor/fondo.py" />
         <option value="$PROJECT_DIR$/escena/pantallaJuego.py" />
+        <option value="$PROJECT_DIR$/actor/jugador.py" />
       </list>
     </option>
   </component>
@@ -110,7 +117,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -133,16 +139,11 @@
               <item name="salto-doble-tp1" type="462c0819:PsiDirectoryNode" />
               <item name="imagenes" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="salto-doble-tp1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salto-doble-tp1" type="462c0819:PsiDirectoryNode" />
-              <item name="imagenes" type="462c0819:PsiDirectoryNode" />
-              <item name="fondo" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -207,17 +208,16 @@
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32939634" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32939634" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32939634" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="SciView" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -228,6 +228,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="13" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,6 +238,34 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/actor/jugador.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="63" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/pilas-1.4.11-py2.7.egg/pilasengine/fisica/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5236">
+          <caret line="312" column="53" selection-start-line="312" selection-start-column="45" selection-end-line="312" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/pilas-1.4.11-py2.7.egg/pilasengine/fisica/rectangulo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/pilas-1.4.11-py2.7.egg/pilasengine/actores/actor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3230">
+          <caret line="194" column="13" lean-forward="true" selection-start-line="194" selection-start-column="13" selection-end-line="194" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/escena/pantallaJuego.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -258,9 +287,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -313,9 +339,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -391,20 +414,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/actor/fondo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/escena/juegoterminado.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Python27/Lib/site-packages/pilas-1.4.11-py2.7.egg/pilasengine/widget.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -412,20 +421,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/pilas-1.4.11-py2.7.egg/pilasengine/fisica/__init__.py">
+    <entry file="file://$PROJECT_DIR$/actor/plataforma.py" />
+    <entry file="file://$PROJECT_DIR$/escena/juegoterminado.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="308" column="69" selection-start-line="306" selection-start-column="69" selection-end-line="308" selection-end-column="69" />
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/escena/pantallaJuego.py">
+    <entry file="file://$PROJECT_DIR$/escena/inicio.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-64">
-          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -436,20 +443,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/actor/plataforma.py">
+    <entry file="file://C:/Python27/Lib/site-packages/pilas-1.4.11-py2.7.egg/pilasengine/fisica/rectangulo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+        <state relative-caret-position="357">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/escena/inicio.py">
+    <entry file="file://C:/Python27/Lib/site-packages/pilas-1.4.11-py2.7.egg/pilasengine/actores/actor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3230">
+          <caret line="194" column="13" lean-forward="true" selection-start-line="194" selection-start-column="13" selection-end-line="194" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/pilas-1.4.11-py2.7.egg/pilasengine/fisica/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5236">
+          <caret line="312" column="53" selection-start-line="312" selection-start-column="45" selection-end-line="312" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actor/fondo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/escena/pantallaJuego.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actor/jugador.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
         </state>
       </provider>
     </entry>

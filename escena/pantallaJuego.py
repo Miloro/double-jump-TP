@@ -7,6 +7,9 @@ from actor.plataformaConMovimiento import PlataformaCM
 class PantallaJuego(pilasengine.escenas.Escena):
 
     def iniciar(self, pilas):
+        pilas.fisica.eliminar_paredes()
+        pilas.fisica.eliminar_suelo()
+        pilas.escena.fisica.eliminar_techo()
         self.tarea = self.pilas.tareas.siempre(2, self.crearPlataformas)
         self.tarea2 = self.pilas.tareas.siempre(0.1, self.perder)
         fondo = Fondo(pilas)
@@ -30,5 +33,5 @@ class PantallaJuego(pilasengine.escenas.Escena):
         plataformaCM.y = 300
 
     def perder(self):
-        if(self.jugador.y <= -220):
+        if(self.jugador.y <= -250):
             self.pilas.escenas.PantallaJuegoTerminado(pilas=self.pilas, p=self.puntaje.puntos)

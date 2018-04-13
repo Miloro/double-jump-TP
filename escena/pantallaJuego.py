@@ -7,7 +7,7 @@ from actor.plataformaConMovimiento import PlataformaCM
 class PantallaJuego(pilasengine.escenas.Escena):
 
     def iniciar(self, pilas):
-        self.tarea = self.pilas.tareas.siempre(1.2, self.crearPlataformas)
+        self.tarea = self.pilas.tareas.siempre(2, self.crearPlataformas)
         self.tarea2 = self.pilas.tareas.siempre(0.1, self.perder)
         fondo = Fondo(pilas)
         self.jugador = Jugador(pilas)

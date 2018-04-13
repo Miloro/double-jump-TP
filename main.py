@@ -1,6 +1,6 @@
 import pilasengine
 from escena.inicio import Inicio
-from escena.juegoterminado import PantallaJuegoTerminado
+from escena.juegoTerminado import PantallaJuegoTerminado
 from escena.pantallaJuego import PantallaJuego
 
 pilas = pilasengine.iniciar(titulo='salto-doble 0.2', habilitar_mensajes_log=False)

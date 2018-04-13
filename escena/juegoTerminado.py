@@ -10,10 +10,10 @@ class PantallaJuegoTerminado(pilasengine.escenas.Escena):
 
         self.irAlInicio = self.pilas.interfaz.Boton("ir al inicio",x=123,y=-123)
         self.irAlInicio.conectar(self.cuandoPulsanElBoton)
-        self.volverAJugar = self.pilas.interfaz.Boton("jugar",x=-123,y=-123)
-        self.volverAJugar.conectar(self.cuandoPulsanElBoton)
+        self.volverAJugar = self.pilas.interfaz.Boton("volver a jugar",x=-123,y=-123)
+        self.volverAJugar.conectar(self.cuandoPulsanElBotonJ)
 
-    def cuandoPulsanElBoton(self):
+    def cuandoPulsanElBotonJ(self):
         self.pilas.escenas.PantallaJuego(pilas=self.pilas)
 
     def cuandoPulsanElBoton(self):
